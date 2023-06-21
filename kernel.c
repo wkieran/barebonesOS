@@ -76,5 +76,4 @@ void kernel_main() {
     term_init();
 
     term_print("Hello, World!\n");
-    term_print("We really in this hoe\n");
 }

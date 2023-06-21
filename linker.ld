@@ -5,14 +5,9 @@ SECTIONS
     . = 1M;
 
 
-    .rodata BLOCK(4K) : ALIGN(4K)
-    {
-        *(.multiboot)
-    }
-
-    /* executable code */
     .text BLOCK(4K) : ALIGN(4K)
     {
+        *(.multiboot)
         *(.text)
     }
 

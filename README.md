@@ -4,6 +4,6 @@ one of many tutorials
 
 ### TODO
 - [x] finish writing code
-- [ ] write makefile
-- [ ] generate .iso
-- [ ] run in virtualbox
+- [x] write makefile
+- [x] generate .iso
+- [x] run in virtualbox
